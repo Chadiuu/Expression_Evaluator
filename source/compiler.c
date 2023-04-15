@@ -104,7 +104,7 @@ static void closeCompiler() {
 	{
 		disassembleByteCode(curr_chunk(), "code ");
 	}
-#endif // DEBUG_PRINT_CODE
+#endif 
 
 }
 static void compile_expression();
